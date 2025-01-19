@@ -4,27 +4,27 @@ import { motion } from 'framer-motion';
 const GallerySection = () => {
   // Using placeholder images - replace with actual bakery images
   const row1Images = [
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
+    'https://images.pexels.com/photos/298217/pexels-photo-298217.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/1191639/pexels-photo-1191639.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/1674064/pexels-photo-1674064.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/14105/pexels-photo-14105.jpeg?auto=compress&cs=tinysrgb&w=600',
     // Duplicate images for continuous scroll
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300'
+    'https://images.pexels.com/photos/298217/pexels-photo-298217.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/1191639/pexels-photo-1191639.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/1674064/pexels-photo-1674064.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/14105/pexels-photo-14105.jpeg?auto=compress&cs=tinysrgb&w=600',
   ];
 
   const row2Images = [
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
+    'https://images.pexels.com/photos/1775053/pexels-photo-1775053.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/1871024/pexels-photo-1871024.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/89690/pexels-photo-89690.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/867452/pexels-photo-867452.jpeg?auto=compress&cs=tinysrgb&w=600',
     // Duplicate images for continuous scroll
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300',
-    '/api/placeholder/300/300'
+    'https://images.pexels.com/photos/1775053/pexels-photo-1775053.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/1871024/pexels-photo-1871024.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/89690/pexels-photo-89690.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/867452/pexels-photo-867452.jpeg?auto=compress&cs=tinysrgb&w=600',
   ];
 
   return (

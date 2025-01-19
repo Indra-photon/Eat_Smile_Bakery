@@ -38,7 +38,7 @@ const WelcomeSection = () => {
     <section className="max-w-7xl mx-auto px-4 py-8">
       {/* Welcome Text */}
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Welcome to Oliver's Bakery!</h2>
+        <h2 className="text-2xl font-semibold mb-4">Welcome to Eat & Smiley Bakery!</h2>
         <p className="text-gray-700 max-w-3xl mx-auto">
           We would like to thank you for your business during these trying times and hope you continue to support
           us as other businesses reopen. We have proudly served this community for over 70 years, and with your
