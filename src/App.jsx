@@ -1,10 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-import WelcomeSection from './components/WelcomeSection'
-import FeaturesSection from './components/FeaturesSection'
-import GallerySection from './components/GallerySection'
-import ContactSection from './components/ContactSection'
+import Home from './pages/Home'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,10 +10,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <WelcomeSection />
-      <FeaturesSection />
-      <GallerySection />
-      <ContactSection />
+      <main>
+          <Outlet />
+      </main>
     </>
   )
 }
